@@ -1,0 +1,22 @@
+.button{
+    border: none;
+    padding: 8px 24px;
+    background-color: #f86c5d;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease;
+    
+}
+
+.button:hover{
+    border: 1px solid salmon;
+    background-color: whitesmoke;
+    color: salmon;
+}
+ .img-style {
+    transform: scale(0.9);
+    transition: 0.3s  ease-in-out;
+}
+.img-style:hover {
+    transform: scale(1);
+}

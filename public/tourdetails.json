@@ -1,0 +1,52 @@
+[
+	{
+		"id":1,
+		"image":"https://images.pexels.com/photos/3408354/pexels-photo-3408354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		"name": "Gray Pagoda Temple, Japan",	
+		"about": "Open-heart surgery is any type of surgery where the chest is cut open and surgery is performed on the muscles, valves, or arteries of the heart.",
+        "cost":"$2999",
+        "duration":"4 Days/5 night"
+	},
+	{
+		"id":2,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/1200px-Kheops-Pyramid.jpg",
+		"name":"Pyramids, Egypt",
+		"about": "A heart transplant is a surgical procedure used to treat the most serious cases of heart disease. This is a treatment option for people who are in the end stages of heart failure",
+        "cost":"$3199",
+        "duration":"3 Days/3 night"
+	},
+	{
+		"id":3,
+		"image":"https://cdn.pixabay.com/photo/2021/08/30/21/29/port-6587129_960_720.jpg",
+		"name":"Lake Garda, Italy",
+		"about": "Dental surgery is a broad term that refers to a broad range of medical procedures that involves the gums and teeth. These include root canal",
+        "cost":"$4499",
+        "duration":"6 Days/7 night"
+	},
+	
+	{
+		"id":4,
+		"image":"https://images.unsplash.com/photo-1564507592333-c60657eea523?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+		"name": "Taj Mahal, India",
+		"about": "Dialysis is a treatment that filters and purifies the blood using a machine. This helps keep your fluids and electrolytes in balance when the kidneys can't do their job.",
+        "cost":"$2699",
+        "duration":"10 Days/11 night"
+	},
+	{
+		"id":5,
+		"image":"https://www.discoverwalks.com/blog/wp-content/uploads/2017/06/around-the-eiffel-tower.jpg",
+		"name": "Eiffel Tower, Paris",
+		"about": "During LASIK eye surgery, an eye surgeon creates a flap in the cornea (A) — the transparent, dome-shaped surface of the eye that accounts.",
+        "cost":"Stating From $4999",
+        "duration":"3 Days/4 night"
+	},
+	{
+		"id":6,
+		"image":"https://images.unsplash.com/photo-1612698093158-e07ac200d44e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW1hbGZpJTIwY29hc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+		"name": "Amalfi Coast, Itali",
+		"about": "Bronchoscopy is a procedure to look directly at the airways in the lungs using a thin, lighted tube. The bronchoscope is put in the nose or mouth.",
+        "cost":"$3999",
+        "duration":"5 Days/6 night"
+	}
+
+]

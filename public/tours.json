@@ -1,0 +1,51 @@
+[
+	{
+		"id":1,
+		"image":"https://images.pexels.com/photos/3408354/pexels-photo-3408354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+		"name": "Gray Pagoda Temple, Japan",	
+		"about": "gray and black pagoda temple, Gyeongbokgung Landmark Palace Tourist attraction, Seoul, South Korea Gyeongbokgung Palace twelve, building, japanese Architecture.",
+        "cost":"$2999",
+        "duration":"4 Days/5 night"
+	},
+	{
+		"id":2,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/1200px-Kheops-Pyramid.jpg",
+		"name":"Pyramids, Egypt",
+		"about": "You'll have seen a thousand photographs of the Pyramids of Giza by the time you finally get here, but nothing beats getting up-close-and-personal with these ancient monuments.Egypt's most famed and feted structures, these ancient tombs of kings guarded by the serene Sphinx have wowed spectators for centuries.",
+        "cost":"$3199",
+        "duration":"3 Days/3 night"
+	},
+	{
+		"id":3,
+		"image":"https://cdn.pixabay.com/photo/2021/08/30/21/29/port-6587129_960_720.jpg",
+		"name":"Lake Garda, Italy",
+		"about": "Lake Garda, in northern Italy, is known for its crystal clear water. At the south end, the town of Sirmione is dominated by the Rocca Scaligera, a fortress with harbor views. The nearby Grotte di Catullo archaeological site includes a Roman villa. ",
+        "cost":"$4499",
+        "duration":"6 Days/7 night"
+	},
+	
+	{
+		"id":4,
+		"image":"https://images.unsplash.com/photo-1564507592333-c60657eea523?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+		"name": "Taj Mahal, India",
+		"about": "Taj Mahal is the epitome of grandeur and splendour, you cannot fathom the beauty of this white marbled monument unless you stand in front of it. As you approach Taj Mahal, it gradually becomes known to you that this is no ordinary monument, but a vision come to life! Moved by its beauty and the deep affection of Shah Jahan for Mumtaz, the Nobel Laureate Rabindranath Tagore called it a teardrop on the face of eternity. A UNESCO World Heritage Site, it is located on the bank of the Yamuna River and is counted among the most popular heritage monuments in India.",
+        "duration":"8 Days/9 night"
+	},
+	{
+		"id":5,
+		"image":"https://www.discoverwalks.com/blog/wp-content/uploads/2017/06/around-the-eiffel-tower.jpg",
+		"name": "Eiffel Tower, Paris",
+		"about": "The Eiffel Tower—or as the French call it, La Tour Eiffel—is one of the world's most recognizable landmarks. The tower was designed as the centerpiece of the 1889 World's Fair in Paris and was meant to commemorate the centennial of the French Revolution and show off France's modern mechanical prowess on a world stage..",
+        "cost":"$4999",
+        "duration":"3 Days/4 night"
+	},
+	{
+		"id":6,
+		"image":"https://images.unsplash.com/photo-1612698093158-e07ac200d44e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW1hbGZpJTIwY29hc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+		"name": "Amalfi Coast, Itali",
+		"about": "The Amalfi Coast is a 50-kilometer stretch of coastline along the southern edge of Italy’s Sorrentine Peninsula, in the Campania region. It’s a popular holiday destination, with sheer cliffs and a rugged shoreline dotted with small beaches and pastel-colored fishing villages. The coastal road between the port city of Salerno and clifftop Sorrento winds past grand villas, terraced vineyards and cliffside lemon groves. ",
+        "cost":"$3999",
+        "duration":"5 Days/6 night"
+	}
+
+]
