@@ -14,7 +14,7 @@ const TourDetails = () => {
     const [toursDetails, setToursDetails] = useState({});
 
     useEffect(() =>{
-        fetch(`http://localhost:5000/tours/${tourId}`)
+        fetch(`https://bloodcurdling-moonlight-19364.herokuapp.com/tours/${tourId}`)
         .then(res => res.json())
         .then(data => setToursDetails(data))
     },[])
@@ -24,25 +24,32 @@ const TourDetails = () => {
         toursDetails.email = (user.email);
         // toursDetails.status =  "pending"
 
-        fetch('http://localhost:5000/myTours', {
+        fetch('https://bloodcurdling-moonlight-19364.herokuapp.com/myTours', {
             method:"POST",
             headers:{
                 'content-type':'application/json'
             },
             body:JSON.stringify(toursDetails)
         })
-        
+        .then(res => res.json())
+        .then(result =>{
+            if(result.insertedId){
+                alert('Your Booking Is successfull');
+                
+                reset();
+            }
+        })
     };
 
     return (
         <div>
-            <Container className="mt-5">
+            <Container className="mt-5 mb-5">
                 <Row>
                     <Col sm={12} md={12} lg={6}>
                         <Card  className='tour-info'>
                         <Card.Img variant="top" src={toursDetails.image} />
                         <Card.Body>
-                            <Card.Title> <h1 style={{color:"salmon"}}>{TourDetails.name}</h1> </Card.Title>
+                            <Card.Title> <h1 style={{color:"salmon"}}>{toursDetails.name}</h1> </Card.Title>
                             <Card.Text>
                                 {toursDetails.about}
                             </Card.Text>

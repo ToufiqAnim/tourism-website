@@ -1,13 +1,15 @@
 import axios from 'axios';
 import React from 'react';
 import { useForm } from "react-hook-form";
-import './AddTours.css'
+import './AddTours.css';
+import image from "../../images/TajMahal.png" ;
 
 const AddTours = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/tours', data)
+
+        axios.post('https://bloodcurdling-moonlight-19364.herokuapp.com/tours', data)
         .then(res => {
             if(res.data.insertedId){
                 alert('Added New Plan Successfully');
@@ -19,6 +21,7 @@ const AddTours = () => {
 
     return (
         <div className="add-tours">
+            <img className='img-fluid mb-4' src={image} alt="" />
             <h1 className="text-center mb-5">Add Your Tour Plans</h1>
 
             <form onSubmit={handleSubmit(onSubmit)}>

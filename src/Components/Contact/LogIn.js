@@ -73,8 +73,8 @@ const Contact = () => {
           <div className="col-sm-10 offset-sm-2">
             <div className="form-check">
               <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
-              <label className="form-check-label" htmlFor="gridCheck1">
-                Already Have An Account?
+              <label className="form-check-label " htmlFor="gridCheck1">
+               <span className="ms-2"> Already Have An Account?</span>
               </label>
             </div>
           </div>

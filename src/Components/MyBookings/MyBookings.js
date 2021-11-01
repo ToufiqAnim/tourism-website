@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Container } from 'react-bootstrap';
-import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
+import { Card} from 'react-bootstrap';
+
 import useAuth from '../../Hooks/useAuth';
 import './MyBookings.css'
 const MyBookings = () => {
@@ -10,19 +9,19 @@ const MyBookings = () => {
    const [myTourPlan, setMyTourPlan] = useState([])
    
    useEffect(() =>{
-       fetch('http://localhost:5000/myTours')
+       fetch('https://bloodcurdling-moonlight-19364.herokuapp.com/myTours')
        .then(res => res.json())
-       .then(data => console.log(data))
+       .then(data => setMyTourPlan(data))
    },[])
    
     useEffect(()=>{
-        fetch(`http://localhost:5000/myTours/${ user.email}`)
+        fetch(`https://bloodcurdling-moonlight-19364.herokuapp.com/myTours/${ user.email}`)
         .then(res => res.json())
         .then(data => setMyTourPlan(data))
     },[user.email])
 
     const handleDelete = id =>{
-        const url = `http://localhost:5000/myTours/${id}`;
+        const url = `https://bloodcurdling-moonlight-19364.herokuapp.com/myTours/${id}`;
         fetch(url,{
             method:'DELETE'
         })  
@@ -33,7 +32,7 @@ const MyBookings = () => {
                 
                 alert('Your Plan is Canceled')
                 const remaining = myTourPlan.filter(tourPlan => tourPlan._id !== id);
-            setMyTourPlan(remaining);
+                 setMyTourPlan(remaining);
             }
             
         })
@@ -46,10 +45,11 @@ const MyBookings = () => {
             <div className="tours-card container ">
                 {
                     myTourPlan.map(tourPlan => <div 
-                        key={tourPlan.key} 
+                        key={tourPlan.key}
+                        
                     >                        
                             
-                            <Card style={{ width:"30rem" }} className="m-3">
+                            <Card style={{ width:"30rem" }} className="m-3 ">
                             <Card.Img className="img-style"  style={{height:"233.33px"}} variant="top" src={tourPlan.image} />
                             <Card.Body>
                             <Card.Text className="mb-2">

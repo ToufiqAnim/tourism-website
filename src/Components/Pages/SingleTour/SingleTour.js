@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './SingleTour.css'
 
 const SingleTour = ({tour}) => {
-    const { _id,name, image, cost, duration} = tour;
+    const { _id,name, image, cost, duration,about} = tour;
     return (
         <div className=" container mb-4">
              <Card style={{ width: '25rem' }}>

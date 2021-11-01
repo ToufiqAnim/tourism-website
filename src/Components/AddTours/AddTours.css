@@ -14,4 +14,5 @@
 .add-tours form input, textarea{
     width: 40%;
     margin-bottom: 10px;
+    background-color: #eee;
 }

@@ -5,13 +5,13 @@ const ManageTourPlans = () => {
     const [tourPlans, setTourPlans] = useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:5000/tours')
+        fetch('https://bloodcurdling-moonlight-19364.herokuapp.com/tours')
         .then(res => res.json())
         .then(data => setTourPlans(data))
     },[])
 
     const handleDelete = id =>{
-        const url = `http://localhost:5000/tours/${id}`;
+        const url = `https://bloodcurdling-moonlight-19364.herokuapp.com/tours/${id}`;
         fetch(url,{
             method:'DELETE'
         })
@@ -40,7 +40,7 @@ const ManageTourPlans = () => {
                             </Card.Text>
                             <Card.Title className="fs-4 mb-4">{tour.name}</Card.Title>
                             
-                            <button className="button" onClick={() => handleDelete(tour._id)}>Delete</button>
+                            <button className="button" onClick={() => handleDelete(tour._id)}>Remove This Plan</button>
                         </Card.Body>
                     </Card>
                     
