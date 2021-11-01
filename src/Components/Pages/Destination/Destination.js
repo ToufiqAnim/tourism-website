@@ -11,7 +11,7 @@ import image7 from '../../../images/image7.jpg'
 const Destination = () => {
     return (
         <div id='photos'>
-           <h1 className="text-center">Travel Gallery</h1>
+           <h1 className="text-center mb-3 mt-4 " style={{color:"#34568b"}}>Travel Gallery</h1>
             <div>
                <Container>
                    <Row>

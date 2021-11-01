@@ -8,7 +8,7 @@ const SingleTour = ({tour}) => {
     const { _id,name, image, cost, duration,about} = tour;
     return (
         <div className=" container mb-4">
-             <Card style={{ width: '25rem' }}>
+             <Card style={{ width: '25rem' }} className="shadow">
                 <Card.Img className="img-style"  style={{height:"233.33px"}} variant="top" src={image} />
                 <Card.Body>
                 <Card.Text className="mb-2">
@@ -16,7 +16,7 @@ const SingleTour = ({tour}) => {
                     </Card.Text>
                     <Card.Title className="fs-4 mb-4">{name}</Card.Title>
                     
-                    <Link className="button text-decoration-none " to={`/tourdetails/${_id}`} >Book Now</Link>
+                    <Link className=" card-button text-decoration-none text-white rounded" to={`/tourdetails/${_id}`} >Book Now</Link>
                 </Card.Body>
             </Card>                     
         </div>

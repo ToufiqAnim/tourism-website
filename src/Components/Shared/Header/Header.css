@@ -1,4 +1,7 @@
 .nav-link{
-    font-weight: 600;
+    font-weight: 500;
     
+}
+.nav-link:hover{
+    border-bottom: 3px solid white;
 }

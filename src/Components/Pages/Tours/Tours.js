@@ -13,7 +13,7 @@ const Tours = () => {
     return (
         
         <div className=" container mt-5" id='tours'>
-          <h1 className="text-center mt-4">Destinations</h1>  
+          <h1 className="text-center mt-4 mb-3" style={{ color:"#34568b"}}>Destinations</h1>  
             <div className="tours-card">
                 {
                     tours.map(tour => <SingleTour

@@ -50,7 +50,7 @@ const MyBookings = () => {
                     >                        
                             
                             <Card style={{ width:"30rem" }} className="m-3 ">
-                            <Card.Img className="img-style"  style={{height:"233.33px"}} variant="top" src={tourPlan.image} />
+                            <Card.Img className="img-style"  style={{height:"350.33px"}} variant="top" src={tourPlan.image} />
                             <Card.Body>
                             <Card.Text className="mb-2">
                                 <span className="fw-bold fs-5">{tourPlan.cost}</span>/<span className="me-5" style={{color:"gray"}}>Per Person</span> <span style={{color:"gray"}} className="ms-5 ps-4">{tourPlan.duration}</span>
